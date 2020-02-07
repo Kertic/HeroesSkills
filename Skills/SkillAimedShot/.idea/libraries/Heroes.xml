@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Heroes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../DNDMinecraft/1_14_4Paper/plugins/Heroes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../DNDMinecraft/1_14_4Paper/plugins/Heroes.jar!/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../DNDMinecraft/1_14_4Paper/plugins/Heroes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/HeroesjarUnzipped" />
+    </SOURCES>
+  </library>
+</component>

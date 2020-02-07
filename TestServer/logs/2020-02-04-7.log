@@ -1,0 +1,262 @@
+[12:01:27] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[12:01:27] [Server thread/INFO]: Loading properties
+[12:01:27] [Server thread/INFO]: This server is running Paper version git-Paper-239 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[12:01:27] [Server thread/INFO]: Debug logging is disabled
+[12:01:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:01:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:01:27] [Server thread/INFO]: Default game type: SURVIVAL
+[12:01:27] [Server thread/INFO]: Generating keypair
+[12:01:27] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25571
+[12:01:27] [Server thread/INFO]: Using default channel type
+[12:01:30] [Server thread/WARN]: Plugin EffectLib v6.2 does not specify an api-version.
+[12:01:30] [Server thread/INFO]: [Effect Library] Loading EffectLib v6.2
+[12:01:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.1;61bc012
+[12:01:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@27dd55a6]
+[12:01:31] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[12:01:31] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[12:01:31] [Server thread/INFO]: [Heroes] Loading Heroes v1.9.3-SNAPSHOT-067de9b
+[12:01:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:01:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.1;61bc012
+[12:01:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:01:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[12:01:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[12:01:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:01:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[12:01:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[12:01:32] [Server thread/INFO]: Preparing level "paper1_14_4"
+[12:01:32] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:01:32] [Server thread/INFO]: Loaded 6 recipes
+[12:01:33] [Server thread/INFO]: -------- World Settings For [paper1_14_4] --------
+[12:01:33] [Server thread/INFO]: View Distance: 10
+[12:01:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:01:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:01:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:01:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:01:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:01:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:01:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:01:33] [Server thread/INFO]: Mob Spawn Range: 6
+[12:01:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:01:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:01:33] [Server thread/INFO]: Max TNT Explosions: 100
+[12:01:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:01:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:01:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:01:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:01:33] [Server thread/INFO]: -------- World Settings For [paper1_14_4_nether] --------
+[12:01:33] [Server thread/INFO]: View Distance: 10
+[12:01:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:01:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:01:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:01:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:01:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:01:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:01:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:01:33] [Server thread/INFO]: Mob Spawn Range: 6
+[12:01:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:01:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:01:33] [Server thread/INFO]: Max TNT Explosions: 100
+[12:01:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:01:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:01:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:01:33] [Server thread/INFO]: -------- World Settings For [paper1_14_4_the_end] --------
+[12:01:33] [Server thread/INFO]: View Distance: 10
+[12:01:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:01:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:01:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:01:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:01:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:01:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:01:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:01:33] [Server thread/INFO]: Mob Spawn Range: 6
+[12:01:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:01:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:01:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:01:33] [Server thread/INFO]: Max TNT Explosions: 100
+[12:01:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:01:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:01:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:01:33] [Server thread/INFO]: Preparing start region for dimension 'paper1_14_4'/minecraft:overworld
+[12:01:33] [Server thread/INFO]: Preparing spawn area: 0%
+[12:01:33] [Server thread/INFO]: Preparing spawn area: 94%
+[12:01:34] [Server thread/INFO]: Preparing spawn area: 100%
+[12:01:34] [Server thread/INFO]: Loaded 441 spawn chunks for world paper1_14_4
+[12:01:34] [Server thread/INFO]: Time elapsed: 1410 ms
+[12:01:34] [Server thread/INFO]: Preparing start region for dimension 'paper1_14_4_nether'/minecraft:the_nether
+[12:01:34] [Server thread/INFO]: Preparing spawn area: 0%
+[12:01:35] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[12:01:35] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[12:01:36] [Server thread/INFO]: Loaded 441 spawn chunks for world paper1_14_4_nether
+[12:01:36] [Server thread/INFO]: Time elapsed: 1280 ms
+[12:01:36] [Server thread/INFO]: Preparing start region for dimension 'paper1_14_4_the_end'/minecraft:the_end
+[12:01:36] [Server thread/INFO]: Preparing spawn area: 0%
+[12:01:36] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[12:01:36] [Server thread/INFO]: Loaded 441 spawn chunks for world paper1_14_4_the_end
+[12:01:36] [Server thread/INFO]: Time elapsed: 823 ms
+[12:01:36] [Server thread/INFO]: [Effect Library] Enabling EffectLib v6.2*
+[12:01:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4) TNT ignition is PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4) Lighters are PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4) Lava fire is PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4) Fire spread is UNRESTRICTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'paper1_14_4'
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_nether) TNT ignition is PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_nether) Lighters are PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_nether) Lava fire is PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_nether) Fire spread is UNRESTRICTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'paper1_14_4_nether'
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_the_end) TNT ignition is PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_the_end) Lighters are PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_the_end) Lava fire is PERMITTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] (paper1_14_4_the_end) Fire spread is UNRESTRICTED.
+[12:01:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'paper1_14_4_the_end'
+[12:01:37] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:01:37] [Server thread/INFO]: [Heroes] Enabling Heroes v1.9.3-SNAPSHOT-067de9b
+[12:01:37] [Server thread/INFO]: [Heroes] Minecraft version: 1.14.4
+[12:01:37] [Server thread/INFO]: [Heroes] Minimum PvP Level is set to: 1
+[12:01:37] [Server thread/INFO]: [Heroes] Citizens 2.0 not found or not enabled - integration is disabled
+[12:01:37] [Server thread/INFO]: [Heroes] Skipped loading recipes as they are currently in development for 1.13.X and are disabled.
+[12:01:37] [Server thread/INFO]: [Heroes] ---- Loading classes, expect verbose logging. ----
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid item-damage (portal) defined for Admin
+[12:01:37] [Server thread/WARN]: [Heroes] Admin has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Admin has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/INFO]: [Heroes] Active physics handler: NMSPhysics_v1_14_R1
+[12:01:37] [Server thread/ERROR]: [Heroes] Could not detect the proper Skill class to load for: SkillAimedShot2.jar
+[12:01:37] [Server thread/WARN]: [Heroes] Class (Admin) max level is too high. Setting max level to 50.
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (STONE_PICKAXE) defined for ApprenticeMage
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (STONE_SPADE) defined for ApprenticeMage
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for ApprenticeMage
+[12:01:37] [Server thread/WARN]: [Heroes] ApprenticeMage has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid item-damage (GOLD_HOE) defined for ApprenticeMage
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid item-damage-level (GOLD_HOE) defined for ApprenticeMage
+[12:01:37] [Server thread/WARN]: [Heroes] ApprenticeMage has no pve-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] ApprenticeMage has no pve-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] ApprenticeMage has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] ApprenticeMage has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (FISHING_ROD) defined for Citizen
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (SHEARS) defined for Citizen
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid offhand type (FISHING_ROD) defined for Citizen
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid offhand type (SHEARS) defined for Citizen
+[12:01:37] [Server thread/WARN]: [Heroes] Citizen has no pve-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Citizen has no pve-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Citizen has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Citizen has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid armor type (SHIELD) defined for Cleric
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for Cleric
+[12:01:37] [Server thread/WARN]: [Heroes] Cleric has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Cleric has no pve-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Cleric has no pve-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Cleric has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Cleric has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] crafter has no permitted-armor section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for crafter
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (SHEARS) defined for crafter
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (FISHING_ROD) defined for crafter
+[12:01:37] [Server thread/WARN]: [Heroes] crafter has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] dwarf has no permitted-armor section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for dwarf
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (SHEARS) defined for dwarf
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (FISHING_ROD) defined for dwarf
+[12:01:37] [Server thread/WARN]: [Heroes] dwarf has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] elf has no permitted-armor section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for elf
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (SHEARS) defined for elf
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (FISHING_ROD) defined for elf
+[12:01:37] [Server thread/WARN]: [Heroes] elf has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Enchanter has no permitted-armor section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (SHEARS) defined for Enchanter
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (FISHING_ROD) defined for Enchanter
+[12:01:37] [Server thread/WARN]: [Heroes] Enchanter has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] human has no permitted-armor section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for human
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (SHEARS) defined for human
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (FISHING_ROD) defined for human
+[12:01:37] [Server thread/WARN]: [Heroes] human has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (STONE_PICKAXE) defined for Mage
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for Mage
+[12:01:37] [Server thread/WARN]: [Heroes] Mage has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Mage has no pve-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Mage has no pve-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Mage has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Mage has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (STONE_PICKAXE) defined for MasterMage
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (STONE_SPADE) defined for MasterMage
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for MasterMage
+[12:01:37] [Server thread/WARN]: [Heroes] MasterMage has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid item-damage (GOLD_HOE) defined for MasterMage
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid item-damage-level (GOLD_HOE) defined for MasterMage
+[12:01:37] [Server thread/WARN]: [Heroes] MasterMage has no pve-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] MasterMage has no pve-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] MasterMage has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] MasterMage has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] orc has no permitted-armor section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for orc
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (SHEARS) defined for orc
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (FISHING_ROD) defined for orc
+[12:01:37] [Server thread/WARN]: [Heroes] orc has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for Rogue
+[12:01:37] [Server thread/WARN]: [Heroes] Rogue has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Rogue has no pve-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Rogue has no pve-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Rogue has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Rogue has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Invalid weapon type (IRON_PICKAXE) defined for Warrior
+[12:01:37] [Server thread/WARN]: [Heroes] Warrior has no permitted-offhand section
+[12:01:37] [Server thread/WARN]: [Heroes] Warrior has no pve-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Warrior has no pve-item-damage-multiplier-level section
+[12:01:37] [Server thread/WARN]: [Heroes] Warrior has no pvp-item-damage-multiplier section
+[12:01:37] [Server thread/WARN]: [Heroes] Warrior has no pvp-item-damage-multiplier-level section
+[12:01:37] [Server thread/INFO]: [Heroes] version 1.9.3-SNAPSHOT-067de9b is enabled!
+[12:01:37] [Server thread/INFO]: Done (4.986s)! For help, type "help"
+[12:01:37] [Server thread/INFO]: Timings Reset
+[12:01:37] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[12:01:38] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[18:01:37] [Craft Scheduler Thread - 76/INFO]: [Vault] Checking for Updates ... 
+[18:01:38] [Craft Scheduler Thread - 76/INFO]: [Vault] No new version available

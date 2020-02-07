@@ -1,0 +1,56 @@
+[11:57:07] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[11:57:07] [Server thread/INFO]: Loading properties
+[11:57:07] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_241]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.14.4.jar:git-Paper-239]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.14.4.jar:git-Paper-239]
+	at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:89) ~[patched_1.14.4.jar:git-Paper-239]
+	Suppressed: java.io.IOException: The handle is invalid
+		at java.io.FileInputStream.close0(Native Method) ~[?:1.8.0_241]
+		at java.io.FileInputStream.access$000(Unknown Source) ~[?:1.8.0_241]
+		at java.io.FileInputStream$1.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.FileDescriptor.closeAll(Unknown Source) ~[?:1.8.0_241]
+		at java.io.FileInputStream.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.BufferedInputStream.close(Unknown Source) ~[?:1.8.0_241]
+		at sun.nio.cs.StreamDecoder.implClose(Unknown Source) ~[?:1.8.0_241]
+		at sun.nio.cs.StreamDecoder.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.InputStreamReader.close(Unknown Source) ~[?:1.8.0_241]
+		at java.io.BufferedReader.close(Unknown Source) ~[?:1.8.0_241]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[patched_1.14.4.jar:git-Paper-239]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.14.4.jar:git-Paper-239]
+		at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:89) ~[patched_1.14.4.jar:git-Paper-239]
+[11:57:07] [Server thread/INFO]: This server is running Paper version git-Paper-239 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[11:57:07] [Server thread/INFO]: Debug logging is disabled
+[11:57:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:57:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:57:07] [Server thread/INFO]: Default game type: SURVIVAL
+[11:57:07] [Server thread/INFO]: Generating keypair
+[11:57:07] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25571
+[11:57:07] [Server thread/INFO]: Using default channel type
+[11:57:12] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[11:57:12] [Server thread/INFO]: Loading properties
+[11:57:12] [Server thread/INFO]: This server is running Paper version git-Paper-239 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[11:57:12] [Server thread/INFO]: Debug logging is disabled
+[11:57:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:57:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:57:12] [Server thread/INFO]: Default game type: SURVIVAL
+[11:57:12] [Server thread/INFO]: Generating keypair
+[11:57:13] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25571
+[11:57:13] [Server thread/INFO]: Using default channel type
+[11:57:14] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[11:57:14] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[11:57:14] [Server thread/WARN]: Perhaps a server is already running on that port?
+[11:57:14] [Server thread/INFO]: Stopping server
+[11:57:14] [Server thread/INFO]: Saving players
+[11:57:14] [Server thread/INFO]: Saving worlds

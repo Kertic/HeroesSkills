@@ -1,0 +1,78 @@
+CONFIRM:
+  name: '&aConfirm'
+  lore: []
+FILL:
+  name: '&8'
+  lore: []
+NO_ITEM:
+  name: '&c- No Item -'
+  lore: []
+NO_TYPE:
+  name: '&c- No Type -'
+  lore: []
+TYPE_DISPLAY:
+  name: '&a#type# &8(Click to browse)'
+  lore:
+  - '&7There are &6#recipes#&7 available recipes.'
+PREVIOUS_PAGE:
+  name: '&aPrevious Page'
+  lore: []
+NEXT_PAGE:
+  name: '&aNext Page'
+  lore: []
+PREVIOUS_IN_QUEUE:
+  name: '&aPrevious'
+  lore: []
+NEXT_IN_QUEUE:
+  name: '&aNext'
+  lore: []
+BACK:
+  name: '&aBack'
+  lore: []
+RECIPE_LIST:
+  name: '&aAdvanced Recipes'
+  lore: []
+CRAFTING_RECIPE_DISPLAY:
+  name: '&a&lCraft&f #name#'
+  lore:
+  - '{conditions}'
+  - '#condition_class#'
+  - '#condition_level#'
+  - '#condition_profession#'
+  - '#condition_mana#'
+  - '#condition_stamina#'
+  - '#condition_food#'
+  - '{crafting_time}'
+  - '{crafting_time}&7Crafting Time: &c#crafting-time#&7s'
+  - ''
+  - '&8Ingredients:'
+  - '#ingredients#'
+  - ''
+  - '&eLeft-Click to craft!'
+  - '&eRight-Click to preview!'
+UPGRADING_RECIPE_DISPLAY:
+  name: '&e&lUpgrade&f #name#'
+  lore:
+  - '{conditions}'
+  - '#condition_class#'
+  - '#condition_level#'
+  - '#condition_profession#'
+  - '#condition_mana#'
+  - '#condition_stamina#'
+  - '#condition_food#'
+  - ''
+  - '&8Ingredients:'
+  - '#ingredients#'
+  - ''
+  - '&eLeft-Click to craft!'
+  - '&eRight-Click to preview!'
+QUEUE_ITEM_DISPLAY:
+  name: '&6&lQueue&f #name#'
+  lore:
+  - '{ready}&7&oThis item was successfully crafted.'
+  - '{queue}&7&oThis item is in the crafting queue.'
+  - '{queue}'
+  - '{queue}&7Time Left: &c#left#'
+  - ''
+  - '{ready}&eClick to claim!'
+  - '{queue}&eClick to cancel.'

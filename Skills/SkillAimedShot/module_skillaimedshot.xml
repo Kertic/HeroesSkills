@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_skillaimedshot" default="compile.module.skillaimedshot">
+  <dirname property="module.skillaimedshot.basedir" file="${ant.file.module_skillaimedshot}"/>
+  
+  <property name="module.jdk.home.skillaimedshot" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.skillaimedshot" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.skillaimedshot" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.skillaimedshot" value="-encoding UTF-8 -source 5 -target 1.5 ${compiler.args}"/>
+  
+  <property name="skillaimedshot.output.dir" value="${module.skillaimedshot.basedir}/target/classes"/>
+  <property name="skillaimedshot.testoutput.dir" value="${module.skillaimedshot.basedir}/target/test-classes"/>
+  
+  <path id="skillaimedshot.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="skillaimedshot.module.production.classpath">
+    <path refid="${module.jdk.classpath.skillaimedshot}"/>
+    <path refid="library.heroes.classpath"/>
+    <path refid="library.maven:_com.destroystokyo.paper:paper-api:1.14.4-r0.1-snapshot.classpath"/>
+    <path refid="library.maven:_commons-lang:commons-lang:2.6.classpath"/>
+    <path refid="library.maven:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.10.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:21.0.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.8.0.classpath"/>
+    <path refid="library.maven:_net.md-5:bungeecord-chat:1.13-snapshot.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-commons:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-tree:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-analysis:7.1.classpath"/>
+  </path>
+  
+  <path id="skillaimedshot.runtime.production.module.classpath">
+    <pathelement location="${skillaimedshot.output.dir}"/>
+    <path refid="library.heroes.classpath"/>
+    <path refid="library.maven:_com.destroystokyo.paper:paper-api:1.14.4-r0.1-snapshot.classpath"/>
+    <path refid="library.maven:_commons-lang:commons-lang:2.6.classpath"/>
+    <path refid="library.maven:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.10.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:21.0.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.8.0.classpath"/>
+    <path refid="library.maven:_net.md-5:bungeecord-chat:1.13-snapshot.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-commons:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-tree:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-analysis:7.1.classpath"/>
+  </path>
+  
+  <path id="skillaimedshot.module.classpath">
+    <path refid="${module.jdk.classpath.skillaimedshot}"/>
+    <pathelement location="${skillaimedshot.output.dir}"/>
+    <path refid="library.heroes.classpath"/>
+    <path refid="library.maven:_com.destroystokyo.paper:paper-api:1.14.4-r0.1-snapshot.classpath"/>
+    <path refid="library.maven:_commons-lang:commons-lang:2.6.classpath"/>
+    <path refid="library.maven:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.10.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:21.0.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.8.0.classpath"/>
+    <path refid="library.maven:_net.md-5:bungeecord-chat:1.13-snapshot.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-commons:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-tree:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-analysis:7.1.classpath"/>
+  </path>
+  
+  <path id="skillaimedshot.runtime.module.classpath">
+    <pathelement location="${skillaimedshot.testoutput.dir}"/>
+    <pathelement location="${skillaimedshot.output.dir}"/>
+    <path refid="library.heroes.classpath"/>
+    <path refid="library.maven:_com.destroystokyo.paper:paper-api:1.14.4-r0.1-snapshot.classpath"/>
+    <path refid="library.maven:_commons-lang:commons-lang:2.6.classpath"/>
+    <path refid="library.maven:_com.google.code.findbugs:jsr305:1.3.9.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.10.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:21.0.classpath"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.8.0.classpath"/>
+    <path refid="library.maven:_net.md-5:bungeecord-chat:1.13-snapshot.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-commons:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-tree:7.1.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm-analysis:7.1.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.skillaimedshot">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.skillaimedshot">
+    <patternset refid="excluded.from.module.skillaimedshot"/>
+  </patternset>
+  
+  <path id="skillaimedshot.module.sourcepath">
+    <dirset dir="${module.skillaimedshot.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="skillaimedshot.module.test.sourcepath">
+    <dirset dir="${module.skillaimedshot.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.skillaimedshot" depends="compile.module.skillaimedshot.production,compile.module.skillaimedshot.tests" description="Compile module SkillAimedShot"/>
+  
+  <target name="compile.module.skillaimedshot.production" depends="register.custom.compilers" description="Compile module SkillAimedShot; production classes">
+    <mkdir dir="${skillaimedshot.output.dir}"/>
+    <javac2 destdir="${skillaimedshot.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.skillaimedshot}/javac">
+      <compilerarg line="${compiler.args.skillaimedshot}"/>
+      <bootclasspath refid="skillaimedshot.module.bootclasspath"/>
+      <classpath refid="skillaimedshot.module.production.classpath"/>
+      <src refid="skillaimedshot.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.skillaimedshot"/>
+    </javac2>
+    
+    <copy todir="${skillaimedshot.output.dir}">
+      <fileset dir="${module.skillaimedshot.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.skillaimedshot.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.skillaimedshot.tests" depends="register.custom.compilers,compile.module.skillaimedshot.production" description="compile module SkillAimedShot; test classes" unless="skip.tests">
+    <mkdir dir="${skillaimedshot.testoutput.dir}"/>
+    <javac2 destdir="${skillaimedshot.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.skillaimedshot}/javac">
+      <compilerarg line="${compiler.args.skillaimedshot}"/>
+      <bootclasspath refid="skillaimedshot.module.bootclasspath"/>
+      <classpath refid="skillaimedshot.module.classpath"/>
+      <src refid="skillaimedshot.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.skillaimedshot"/>
+    </javac2>
+    
+    <copy todir="${skillaimedshot.testoutput.dir}">
+      <fileset dir="${module.skillaimedshot.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.skillaimedshot" description="cleanup module">
+    <delete dir="${skillaimedshot.output.dir}"/>
+    <delete dir="${skillaimedshot.testoutput.dir}"/>
+  </target>
+</project>

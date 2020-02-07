@@ -1,0 +1,16 @@
+[19:01:42] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[19:01:42] [Server thread/INFO]: Loading properties
+[19:01:43] [Server thread/INFO]: This server is running Paper version git-Paper-239 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[19:01:43] [Server thread/INFO]: Debug logging is disabled
+[19:01:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:01:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:01:43] [Server thread/INFO]: Default game type: SURVIVAL
+[19:01:43] [Server thread/INFO]: Generating keypair
+[19:01:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25571
+[19:01:43] [Server thread/INFO]: Using default channel type
+[19:01:44] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[19:01:44] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[19:01:44] [Server thread/WARN]: Perhaps a server is already running on that port?
+[19:01:44] [Server thread/INFO]: Stopping server
+[19:01:44] [Server thread/INFO]: Saving players
+[19:01:44] [Server thread/INFO]: Saving worlds

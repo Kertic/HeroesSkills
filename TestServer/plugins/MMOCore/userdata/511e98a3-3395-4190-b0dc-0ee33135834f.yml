@@ -1,0 +1,17 @@
+class-points: 0
+skill-points: 99
+attribute-points: 0
+attribute-realloc-points: 0
+level: 100
+experience: 0
+class: ARCANE_MAGE
+waypoints: []
+last-login: 1580269228956
+bound-skills:
+- ICEBOLT
+attribute:
+  dexterity: 0
+  strength: 0
+  intelligence: 0
+profession: {}
+quest: {}
